@@ -1,0 +1,435 @@
+{
+  "common": {
+    "retry": "Tentar novamente",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "load_error": "Não foi possível carregar. Tente novamente.",
+    "close": "Fechar"
+  },
+  "navigation": {
+    "loading": "Carregando…"
+  },
+  "theme": {
+    "label": "Tema",
+    "tooltip": "Alterar tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "locale": {
+    "label": "Idioma",
+    "tooltip": "Alterar idioma"
+  },
+  "languages": {
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "validation": {
+    "required": "Campo obrigatório",
+    "email_invalid": "E-mail inválido",
+    "min_chars": "Mínimo de {min} caracteres",
+    "max_chars": "Máximo de {max} caracteres",
+    "dates_order": "A data de início não pode ser depois do prazo",
+    "weekdays_required": "Escolha ao menos um dia da semana",
+    "interval_range": "Intervalo fora do permitido"
+  },
+  "NotFoundPage": {
+    "title": "Página não encontrada",
+    "description": "Desculpe, não encontramos a página que você está procurando.",
+    "back_home": "Voltar para o início"
+  },
+  "ErrorPage": {
+    "title": "Algo deu errado",
+    "description": "Ocorreu um erro inesperado. Tente novamente; se continuar, informe ao suporte a referência abaixo.",
+    "reference": "Referência: {digest}"
+  },
+  "todo": {
+    "title": "Tarefas",
+    "loading": "Carregando suas tarefas…",
+    "views": {
+      "label": "Visão da lista",
+      "today": "Hoje",
+      "upcoming": "Próximos",
+      "all": "Todos"
+    },
+    "search": {
+      "label": "Buscar tarefas",
+      "placeholder": "Buscar…",
+      "clear": "Limpar busca"
+    },
+    "quickAdd": {
+      "label": "Nova tarefa",
+      "placeholder": "Nova tarefa…",
+      "submit": "Adicionar",
+      "parent": "Dentro de…",
+      "parentPlaceholder": "Escolher o item de cima…",
+      "noParent": "Nenhum (primeiro nível)",
+      "parentAria": "Dentro de: {text}",
+      "parentTip": "Criar dentro de outro item",
+      "parentEmpty": "Nenhum item encontrado",
+      "priorityAria": "Prioridade: {name}"
+    },
+    "priority": {
+      "label": "Prioridade",
+      "p1": "Urgente",
+      "p2": "Alta",
+      "p3": "Média",
+      "p4": "Normal"
+    },
+    "row": {
+      "tree": "Lista de tarefas",
+      "expand": "Expandir {text}",
+      "collapse": "Recolher {text}",
+      "drag": "Arrastar para mover {text}",
+      "edit": "Editar {text}",
+      "menu": "Mais ações para {text}",
+      "editLabel": "Texto da tarefa",
+      "progress": "{done} de {total}",
+      "overdue": "Atrasada",
+      "dueOn": "Prazo {date}",
+      "startsOn": "Começa {date}",
+      "recurring": "Recorrente",
+      "menuShort": "Mais ações"
+    },
+    "menu": {
+      "edit": "Editar",
+      "addChild": "Adicionar subitem",
+      "indent": "Indentar",
+      "outdent": "Desindentar",
+      "moveUp": "Subir",
+      "moveDown": "Descer",
+      "moveTo": "Mover para…",
+      "priority": "Prioridade",
+      "details": "Datas e repetição",
+      "sortByDue": "Ordenar subitens por prazo",
+      "delete": "Excluir",
+      "label": "Mais opções",
+      "history": "Histórico",
+      "export": "Exportar tudo (JSON)",
+      "import": "Importar de um arquivo…",
+      "dismissOverdue": "Dispensar atrasadas",
+      "clearCompleted": "Limpar concluídas antigas",
+      "confetti": "Confete ao concluir",
+      "shortcuts": "Atalhos de teclado"
+    },
+    "subitem": {
+      "label": "Novo subitem",
+      "placeholder": "Subitem…",
+      "cancel": "Cancelar"
+    },
+    "empty": {
+      "today": {
+        "title": "Nada para hoje",
+        "description": "Adicione uma tarefa acima ou veja o que vem por aí em Próximos."
+      },
+      "upcoming": {
+        "title": "Nada agendado",
+        "description": "Tarefas com data de início futura e repetições aparecem aqui."
+      },
+      "all": {
+        "title": "Sua lista está vazia",
+        "description": "Digite uma tarefa no campo acima e aperte Enter."
+      },
+      "search": {
+        "title": "Nenhum resultado",
+        "description": "Nenhuma tarefa corresponde a “{query}”."
+      }
+    },
+    "progress": {
+      "label": "Progresso de hoje",
+      "count": "{done} de {total} hoje",
+      "allDone": "Tudo feito por hoje",
+      "none": "Sem tarefas hoje",
+      "streak": "{count, plural, one {# dia seguido} other {# dias seguidos}}",
+      "streakNone": "Sem sequência",
+      "streakAtRisk": "Conclua o dia para manter a sequência",
+      "best": "Melhor sequência: {count}"
+    },
+    "celebration": {
+      "parent": "Tudo concluído!",
+      "day": "Dia zerado! Sequência de {count, plural, one {# dia} other {# dias}}."
+    },
+    "undo": {
+      "undo": "Desfazer",
+      "redo": "Refazer",
+      "undone": "Desfeito: {action}",
+      "redone": "Refeito: {action}",
+      "nothing": "Nada para desfazer",
+      "deleted": "“{text}” excluída",
+      "actions": {
+        "createItem": "criar tarefa",
+        "editItem": "editar tarefa",
+        "toggleDone": "marcar ou desmarcar",
+        "moveItem": "mover tarefa",
+        "deleteItem": "excluir tarefa",
+        "createSeries": "criar repetição",
+        "makeRecurring": "repetir tarefa",
+        "editSeries": "editar repetição",
+        "applyStructureToSeries": "aplicar aos próximos dias",
+        "endSeries": "encerrar repetição",
+        "deleteSeries": "excluir repetição",
+        "dismissOverdue": "dispensar atrasadas",
+        "sortByDue": "ordenar por prazo",
+        "clearCompleted": "limpar concluídas",
+        "importDocument": "importar"
+      }
+    },
+    "errors": {
+      "not-found": "Não encontramos esse item.",
+      "empty-text": "Escreva um texto para a tarefa.",
+      "text-too-long": "O texto passou do limite de {max} caracteres.",
+      "limit": "A lista chegou ao limite de {max} itens.",
+      "depth": "Não dá para aninhar tantos níveis.",
+      "cycle": "Não dá para mover um item para dentro dele mesmo.",
+      "self": "Não dá para mover um item para dentro dele mesmo.",
+      "invalid-dates": "A data de início não pode ser depois do prazo.",
+      "invalid-rule": "A repetição não é válida.",
+      "invalid-target": "Essa ação não vale para este item.",
+      "no-change": "Nada para alterar.",
+      "not-ready": "Ainda carregando seus dados."
+    },
+    "a11y": {
+      "completed": "{text} concluída",
+      "reopened": "{text} reaberta",
+      "moved": "{text} movida",
+      "priorityChanged": "{text}: prioridade {priority}",
+      "deleted": "{text} excluída"
+    },
+    "parent": {
+      "empty": "Nenhum item encontrado"
+    },
+    "moveTo": {
+      "title": "Mover para…"
+    },
+    "details": {
+      "description": "Datas e repetição desta tarefa.",
+      "startsOn": "Aparece em",
+      "dueOn": "Prazo",
+      "noDate": "Sem data",
+      "today": "Hoje",
+      "tomorrow": "Amanhã",
+      "clear": "Limpar",
+      "repeat": "Repetir",
+      "scope": {
+        "label": "Aplicar a",
+        "this": "Só esta",
+        "future": "Esta e as próximas",
+        "hint": {
+          "this": "Muda só as datas desta ocorrência.",
+          "future": "Muda também a repetição das próximas ocorrências."
+        }
+      },
+      "applyStructure": "Usar estes subitens nas próximas",
+      "endSeries": "Encerrar repetição",
+      "deleteSeries": "Excluir repetição",
+      "save": "Salvar",
+      "deleteConfirm": {
+        "title": "Excluir esta repetição?",
+        "description": "{count, plural, =0 {Nenhuma ocorrência aberta será removida.} one {# ocorrência aberta será removida.} other {# ocorrências abertas serão removidas.}} As já concluídas ficam na lista.",
+        "alsoDone": "Apagar também as ocorrências concluídas",
+        "confirm": "Excluir repetição"
+      },
+      "startsOnRecurring": "Começa em"
+    },
+    "recurrence": {
+      "freq": {
+        "none": "Não repete",
+        "daily": "Diária",
+        "weekly": "Semanal",
+        "monthly": "Mensal",
+        "yearly": "Anual"
+      },
+      "every": "A cada",
+      "unit": {
+        "daily": "{count, plural, one {dia} other {dias}}",
+        "weekly": "{count, plural, one {semana} other {semanas}}",
+        "monthly": "{count, plural, one {mês} other {meses}}",
+        "yearly": "{count, plural, one {ano} other {anos}}"
+      },
+      "onDays": "Nos dias",
+      "onDay": "No dia",
+      "dayOfMonth": "Dia do mês",
+      "lastDay": "Último dia",
+      "endsOn": "Termina em (opcional)"
+    },
+    "shortcuts": {
+      "title": "Atalhos de teclado",
+      "description": "Use o teclado para fazer tudo sem tirar a mão do texto.",
+      "groups": {
+        "global": "Em qualquer lugar",
+        "list": "Com uma tarefa em foco",
+        "add": "Ao criar uma tarefa"
+      },
+      "undo": "Desfazer",
+      "redo": "Refazer",
+      "newTask": "Nova tarefa",
+      "search": "Buscar",
+      "help": "Mostrar atalhos",
+      "navigate": "Mover o foco",
+      "collapse": "Expandir ou recolher",
+      "toggle": "Marcar ou desmarcar",
+      "edit": "Editar o texto",
+      "priority": "Definir a prioridade",
+      "details": "Datas e repetição",
+      "delete": "Excluir",
+      "reorder": "Subir ou descer",
+      "indent": "Indentar ou desindentar",
+      "submit": "Adicionar",
+      "priorityText": "Prioridade no texto",
+      "priorityAlt": "Prioridade pelo teclado",
+      "clearField": "Limpar o campo (ou sair dele)"
+    },
+    "storage": {
+      "synced": "A lista foi atualizada por outra aba.",
+      "error": {
+        "unavailable": "Seu navegador não está permitindo salvar os dados. O que você fizer agora pode ser perdido ao fechar a aba.",
+        "quota": "Acabou o espaço de armazenamento do navegador. Suas últimas alterações não foram salvas.",
+        "write": "Não conseguimos salvar suas últimas alterações. Tentaremos de novo na próxima mudança."
+      }
+    },
+    "drag": {
+      "invalid": "Não dá para soltar aqui",
+      "inside": "Dentro de “{text}”",
+      "topLevel": "Primeiro nível",
+      "carried": "+ {count, plural, one {# subitem} other {# subitens}}",
+      "a11y": {
+        "instructions": "Arraste pela alça para mover. Pelo teclado, use Alt com as setas na tarefa em foco.",
+        "start": "Pegou “{text}”.",
+        "over": "“{text}” sobre “{target}”.",
+        "end": "“{text}” solta.",
+        "cancel": "Movimento de “{text}” cancelado."
+      }
+    },
+    "history": {
+      "title": "Histórico",
+      "description": "Tudo o que aconteceu na sua lista: quando cada tarefa foi criada, marcada, movida ou excluída.",
+      "forItem": "Só “{text}”",
+      "empty": "Nada aconteceu ainda. As alterações aparecem aqui.",
+      "noMatch": "Nenhum registro com esses filtros.",
+      "showMore": "Mostrar mais {count}",
+      "untitled": "vários itens",
+      "undoneBadge": "Desfeito",
+      "filters": {
+        "search": "Buscar no histórico",
+        "searchPlaceholder": "Texto da tarefa…",
+        "type": "Tipo",
+        "origin": "Origem",
+        "from": "De",
+        "to": "Até",
+        "clear": "Limpar filtros",
+        "clearItem": "Ver o histórico de tudo"
+      },
+      "categories": {
+        "done": "Conclusões",
+        "edit": "Alterações",
+        "repeat": "Repetições",
+        "data": "Dados e desfazer"
+      },
+      "origin": {
+        "all": "Tudo",
+        "user": "Eu",
+        "system": "Sistema"
+      },
+      "fields": {
+        "text": "Texto",
+        "priority": "Prioridade",
+        "startsOn": "Aparece em",
+        "dueOn": "Prazo",
+        "rule": "Repetição",
+        "endsOn": "Termina em",
+        "parentId": "Dentro de",
+        "rank": "Posição"
+      },
+      "changes": {
+        "none": "nenhum"
+      },
+      "events": {
+        "created": "Criou “{text}”",
+        "edited": "Editou “{text}”",
+        "completed": "Concluiu “{text}”",
+        "reopened": "Reabriu “{text}”",
+        "moved": "Moveu “{text}”",
+        "reordered": "{count, plural, =0 {Reordenou “{text}”} other {Ordenou # itens por prazo}}",
+        "deleted": "{count, plural, =0 {Excluiu “{text}”} other {Excluiu “{text}” (# itens)}}",
+        "imported": "Importou {count, plural, one {# item} other {# itens}}",
+        "occurrence_created": "Nova ocorrência de “{text}”",
+        "occurrences_skipped": "{count, plural, one {# ocorrência} other {# ocorrências}} de “{text}” puladas",
+        "occurrences_dismissed": "Dispensou {count, plural, one {# ocorrência atrasada} other {# ocorrências atrasadas}}",
+        "series_created": "Criou a repetição de “{text}”",
+        "series_changed": "Alterou a repetição de “{text}”",
+        "series_ended": "Encerrou a repetição de “{text}”",
+        "undone": "Desfez uma ação em “{text}”",
+        "redone": "Refez uma ação em “{text}”"
+      }
+    },
+    "data": {
+      "exported": "Arquivo exportado. Guarde-o em um lugar seguro.",
+      "dismissed": "{count, plural, one {# ocorrência dispensada} other {# ocorrências dispensadas}}",
+      "cleared": "{count, plural, one {# item removido} other {# itens removidos}}",
+      "nothingToClear": "Nenhuma tarefa concluída há mais de uma semana.",
+      "undo": "Desfazer",
+      "import": {
+        "title": "Importar tarefas",
+        "description": "Escolha um arquivo exportado por este app. Você vê o que muda antes de confirmar e pode desfazer depois.",
+        "chooseFile": "Escolher arquivo…",
+        "mode": "Como importar",
+        "modes": {
+          "merge": "Mesclar",
+          "replace": "Substituir"
+        },
+        "modeHint": {
+          "merge": "Acrescenta o que falta e, quando o mesmo item existe nos dois lados, fica com o alterado mais recentemente.",
+          "replace": "Troca a lista inteira pelo conteúdo do arquivo. O histórico é preservado."
+        },
+        "summary": {
+          "added": "Itens novos",
+          "updated": "Itens atualizados",
+          "removed": "Itens que saem",
+          "series": "Repetições novas",
+          "total": "Total depois"
+        },
+        "confirm": "Importar",
+        "done": "{count, plural, one {# item na lista} other {# itens na lista}} após importar",
+        "errors": {
+          "too-large": "O arquivo é grande demais para importar.",
+          "invalid-json": "O arquivo não é um JSON válido.",
+          "wrong-app": "Este arquivo não foi exportado por este app.",
+          "unsupported-version": "Este arquivo é de uma versão mais nova do app.",
+          "invalid-data": "O arquivo tem dados inválidos. Primeiro problema em:",
+          "limit": "Importar deixaria a lista com mais de {max} itens."
+        }
+      }
+    },
+    "backup": {
+      "message": "Seus dados ficam só neste navegador. Exporte um backup para não perder nada se os dados do navegador forem limpos.",
+      "export": "Exportar agora",
+      "later": "Depois"
+    },
+    "corrupt": {
+      "title": "Não conseguimos ler seus dados salvos",
+      "description": "O app abriu com a lista vazia, mas uma cópia do que estava salvo foi guardada. Baixe-a para tentar recuperar o que for possível.",
+      "download": "Baixar a cópia"
+    },
+    "offline": {
+      "label": "Sem conexão"
+    },
+    "schedule": {
+      "label": "Quando e repetição",
+      "title": "Quando e repetição",
+      "description": "Escolha quando a tarefa aparece, o prazo e se ela se repete.",
+      "apply": "Aplicar",
+      "clear": "Limpar tudo",
+      "recurringHint": "Numa tarefa que se repete, cada ocorrência vence no próprio dia — por isso não há prazo.",
+      "summary": {
+        "daily": "{count, plural, one {Todo dia} other {A cada # dias}}",
+        "weekly": "{count, plural, one {Toda semana} other {A cada # semanas}}",
+        "monthly": "{count, plural, one {Todo mês} other {A cada # meses}}",
+        "yearly": "{count, plural, one {Todo ano} other {A cada # anos}}",
+        "day": "dia {day}",
+        "lastDay": "último dia",
+        "due": "Prazo {date}",
+        "starts": "Começa {date}"
+      }
+    }
+  }
+}

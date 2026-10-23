@@ -1,0 +1,435 @@
+{
+  "common": {
+    "retry": "Try again",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "load_error": "Couldn't load this. Try again.",
+    "close": "Close"
+  },
+  "navigation": {
+    "loading": "Loading…"
+  },
+  "theme": {
+    "label": "Theme",
+    "tooltip": "Change theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "locale": {
+    "label": "Language",
+    "tooltip": "Change language"
+  },
+  "languages": {
+    "pt-BR": "Português",
+    "en": "English"
+  },
+  "validation": {
+    "required": "Required field",
+    "email_invalid": "Invalid email",
+    "min_chars": "Minimum {min} characters",
+    "max_chars": "Maximum {max} characters",
+    "dates_order": "The start date cannot be after the due date",
+    "weekdays_required": "Pick at least one day of the week",
+    "interval_range": "Interval out of range"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "back_home": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Try again, and if it keeps happening, tell support the reference below.",
+    "reference": "Reference: {digest}"
+  },
+  "todo": {
+    "title": "Tasks",
+    "loading": "Loading your tasks…",
+    "views": {
+      "label": "List view",
+      "today": "Today",
+      "upcoming": "Upcoming",
+      "all": "All"
+    },
+    "search": {
+      "label": "Search tasks",
+      "placeholder": "Search…",
+      "clear": "Clear search"
+    },
+    "quickAdd": {
+      "label": "New task",
+      "placeholder": "New task…",
+      "submit": "Add",
+      "parent": "Inside…",
+      "parentPlaceholder": "Choose the parent item…",
+      "noParent": "None (top level)",
+      "parentAria": "Inside: {text}",
+      "parentTip": "Create inside another item",
+      "parentEmpty": "No items found",
+      "priorityAria": "Priority: {name}"
+    },
+    "priority": {
+      "label": "Priority",
+      "p1": "Urgent",
+      "p2": "High",
+      "p3": "Medium",
+      "p4": "Normal"
+    },
+    "row": {
+      "tree": "Task list",
+      "expand": "Expand {text}",
+      "collapse": "Collapse {text}",
+      "drag": "Drag to move {text}",
+      "edit": "Edit {text}",
+      "menu": "More actions for {text}",
+      "editLabel": "Task text",
+      "progress": "{done} of {total}",
+      "overdue": "Overdue",
+      "dueOn": "Due {date}",
+      "startsOn": "Starts {date}",
+      "recurring": "Repeats",
+      "menuShort": "More actions"
+    },
+    "menu": {
+      "edit": "Edit",
+      "addChild": "Add subitem",
+      "indent": "Indent",
+      "outdent": "Outdent",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "moveTo": "Move to…",
+      "priority": "Priority",
+      "details": "Dates and repeat",
+      "sortByDue": "Sort subitems by due date",
+      "delete": "Delete",
+      "label": "More options",
+      "history": "History",
+      "export": "Export everything (JSON)",
+      "import": "Import from a file…",
+      "dismissOverdue": "Dismiss overdue",
+      "clearCompleted": "Clear old completed",
+      "confetti": "Confetti on completion",
+      "shortcuts": "Keyboard shortcuts"
+    },
+    "subitem": {
+      "label": "New subitem",
+      "placeholder": "Subitem…",
+      "cancel": "Cancel"
+    },
+    "empty": {
+      "today": {
+        "title": "Nothing for today",
+        "description": "Add a task above or see what is coming up in Upcoming."
+      },
+      "upcoming": {
+        "title": "Nothing scheduled",
+        "description": "Tasks with a future start date and repeats show up here."
+      },
+      "all": {
+        "title": "Your list is empty",
+        "description": "Type a task in the field above and press Enter."
+      },
+      "search": {
+        "title": "No results",
+        "description": "No task matches “{query}”."
+      }
+    },
+    "progress": {
+      "label": "Today’s progress",
+      "count": "{done} of {total} today",
+      "allDone": "All done for today",
+      "none": "No tasks today",
+      "streak": "{count}-day streak",
+      "streakNone": "No streak yet",
+      "streakAtRisk": "Clear the day to keep your streak",
+      "best": "Best streak: {count}"
+    },
+    "celebration": {
+      "parent": "All done!",
+      "day": "Day cleared! {count, plural, one {# day} other {# days}} in a row."
+    },
+    "undo": {
+      "undo": "Undo",
+      "redo": "Redo",
+      "undone": "Undone: {action}",
+      "redone": "Redone: {action}",
+      "nothing": "Nothing to undo",
+      "deleted": "“{text}” deleted",
+      "actions": {
+        "createItem": "create task",
+        "editItem": "edit task",
+        "toggleDone": "check or uncheck",
+        "moveItem": "move task",
+        "deleteItem": "delete task",
+        "createSeries": "create repeat",
+        "makeRecurring": "make task repeat",
+        "editSeries": "edit repeat",
+        "applyStructureToSeries": "apply to upcoming days",
+        "endSeries": "end repeat",
+        "deleteSeries": "delete repeat",
+        "dismissOverdue": "dismiss overdue",
+        "sortByDue": "sort by due date",
+        "clearCompleted": "clear completed",
+        "importDocument": "import"
+      }
+    },
+    "errors": {
+      "not-found": "We could not find that item.",
+      "empty-text": "Write some text for the task.",
+      "text-too-long": "The text is over the {max}-character limit.",
+      "limit": "The list reached the limit of {max} items.",
+      "depth": "You cannot nest that deep.",
+      "cycle": "You cannot move an item inside itself.",
+      "self": "You cannot move an item inside itself.",
+      "invalid-dates": "The start date cannot be after the due date.",
+      "invalid-rule": "The repeat is not valid.",
+      "invalid-target": "That action does not apply to this item.",
+      "no-change": "Nothing to change.",
+      "not-ready": "Still loading your data."
+    },
+    "a11y": {
+      "completed": "{text} completed",
+      "reopened": "{text} reopened",
+      "moved": "{text} moved",
+      "priorityChanged": "{text}: priority {priority}",
+      "deleted": "{text} deleted"
+    },
+    "parent": {
+      "empty": "No items found"
+    },
+    "moveTo": {
+      "title": "Move to…"
+    },
+    "details": {
+      "description": "Dates and repeat for this task.",
+      "startsOn": "Shows up on",
+      "dueOn": "Due",
+      "noDate": "No date",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "clear": "Clear",
+      "repeat": "Repeat",
+      "scope": {
+        "label": "Apply to",
+        "this": "Only this one",
+        "future": "This and upcoming",
+        "hint": {
+          "this": "Only changes the dates of this occurrence.",
+          "future": "Also changes the repeat of upcoming occurrences."
+        }
+      },
+      "applyStructure": "Use these subitems for upcoming ones",
+      "endSeries": "End repeat",
+      "deleteSeries": "Delete repeat",
+      "save": "Save",
+      "deleteConfirm": {
+        "title": "Delete this repeat?",
+        "description": "{count, plural, =0 {No open occurrence will be removed.} one {# open occurrence will be removed.} other {# open occurrences will be removed.}} The completed ones stay on the list.",
+        "alsoDone": "Also delete the completed occurrences",
+        "confirm": "Delete repeat"
+      },
+      "startsOnRecurring": "Starts on"
+    },
+    "recurrence": {
+      "freq": {
+        "none": "Does not repeat",
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      },
+      "every": "Every",
+      "unit": {
+        "daily": "{count, plural, one {day} other {days}}",
+        "weekly": "{count, plural, one {week} other {weeks}}",
+        "monthly": "{count, plural, one {month} other {months}}",
+        "yearly": "{count, plural, one {year} other {years}}"
+      },
+      "onDays": "On days",
+      "onDay": "On day",
+      "dayOfMonth": "Day of month",
+      "lastDay": "Last day",
+      "endsOn": "Ends on (optional)"
+    },
+    "shortcuts": {
+      "title": "Keyboard shortcuts",
+      "description": "Do everything without taking your hands off the keyboard.",
+      "groups": {
+        "global": "Anywhere",
+        "list": "With a task focused",
+        "add": "When creating a task"
+      },
+      "undo": "Undo",
+      "redo": "Redo",
+      "newTask": "New task",
+      "search": "Search",
+      "help": "Show shortcuts",
+      "navigate": "Move focus",
+      "collapse": "Expand or collapse",
+      "toggle": "Check or uncheck",
+      "edit": "Edit the text",
+      "priority": "Set the priority",
+      "details": "Dates and repeat",
+      "delete": "Delete",
+      "reorder": "Move up or down",
+      "indent": "Indent or outdent",
+      "submit": "Add",
+      "priorityText": "Priority in the text",
+      "priorityAlt": "Priority by keyboard",
+      "clearField": "Clear the field (or leave it)"
+    },
+    "storage": {
+      "synced": "The list was updated from another tab.",
+      "error": {
+        "unavailable": "Your browser is not letting us save data. What you do now may be lost when you close the tab.",
+        "quota": "The browser storage is full. Your latest changes were not saved.",
+        "write": "We could not save your latest changes. We will try again on the next change."
+      }
+    },
+    "drag": {
+      "invalid": "You cannot drop here",
+      "inside": "Inside “{text}”",
+      "topLevel": "Top level",
+      "carried": "+ {count, plural, one {# subitem} other {# subitems}}",
+      "a11y": {
+        "instructions": "Drag by the handle to move. With the keyboard, use Alt with the arrow keys on the focused task.",
+        "start": "Picked up “{text}”.",
+        "over": "“{text}” over “{target}”.",
+        "end": "“{text}” dropped.",
+        "cancel": "Moving “{text}” was cancelled."
+      }
+    },
+    "history": {
+      "title": "History",
+      "description": "Everything that happened to your list: when each task was created, checked, moved or deleted.",
+      "forItem": "Only “{text}”",
+      "empty": "Nothing has happened yet. Changes show up here.",
+      "noMatch": "No records match these filters.",
+      "showMore": "Show {count} more",
+      "untitled": "several items",
+      "undoneBadge": "Undone",
+      "filters": {
+        "search": "Search history",
+        "searchPlaceholder": "Task text…",
+        "type": "Type",
+        "origin": "Origin",
+        "from": "From",
+        "to": "To",
+        "clear": "Clear filters",
+        "clearItem": "See everyone’s history"
+      },
+      "categories": {
+        "done": "Completions",
+        "edit": "Changes",
+        "repeat": "Repeats",
+        "data": "Data and undo"
+      },
+      "origin": {
+        "all": "All",
+        "user": "Me",
+        "system": "System"
+      },
+      "fields": {
+        "text": "Text",
+        "priority": "Priority",
+        "startsOn": "Shows up on",
+        "dueOn": "Due",
+        "rule": "Repeat",
+        "endsOn": "Ends on",
+        "parentId": "Inside",
+        "rank": "Position"
+      },
+      "changes": {
+        "none": "none"
+      },
+      "events": {
+        "created": "Created “{text}”",
+        "edited": "Edited “{text}”",
+        "completed": "Completed “{text}”",
+        "reopened": "Reopened “{text}”",
+        "moved": "Moved “{text}”",
+        "reordered": "{count, plural, =0 {Reordered “{text}”} other {Sorted # items by due date}}",
+        "deleted": "{count, plural, =0 {Deleted “{text}”} other {Deleted “{text}” (# items)}}",
+        "imported": "Imported {count, plural, one {# item} other {# items}}",
+        "occurrence_created": "New occurrence of “{text}”",
+        "occurrences_skipped": "{count, plural, one {# occurrence} other {# occurrences}} of “{text}” skipped",
+        "occurrences_dismissed": "Dismissed {count, plural, one {# overdue occurrence} other {# overdue occurrences}}",
+        "series_created": "Created the repeat of “{text}”",
+        "series_changed": "Changed the repeat of “{text}”",
+        "series_ended": "Ended the repeat of “{text}”",
+        "undone": "Undid an action on “{text}”",
+        "redone": "Redid an action on “{text}”"
+      }
+    },
+    "data": {
+      "exported": "File exported. Keep it somewhere safe.",
+      "dismissed": "{count, plural, one {# occurrence dismissed} other {# occurrences dismissed}}",
+      "cleared": "{count, plural, one {# item removed} other {# items removed}}",
+      "nothingToClear": "No task completed more than a week ago.",
+      "undo": "Undo",
+      "import": {
+        "title": "Import tasks",
+        "description": "Choose a file exported by this app. You see what changes before confirming and can undo afterwards.",
+        "chooseFile": "Choose file…",
+        "mode": "How to import",
+        "modes": {
+          "merge": "Merge",
+          "replace": "Replace"
+        },
+        "modeHint": {
+          "merge": "Adds what is missing and, when the same item exists on both sides, keeps the most recently changed one.",
+          "replace": "Replaces the whole list with the file’s content. History is preserved."
+        },
+        "summary": {
+          "added": "New items",
+          "updated": "Updated items",
+          "removed": "Items going away",
+          "series": "New repeats",
+          "total": "Total afterwards"
+        },
+        "confirm": "Import",
+        "done": "{count, plural, one {# item} other {# items}} on the list after importing",
+        "errors": {
+          "too-large": "The file is too large to import.",
+          "invalid-json": "The file is not valid JSON.",
+          "wrong-app": "This file was not exported by this app.",
+          "unsupported-version": "This file is from a newer version of the app.",
+          "invalid-data": "The file has invalid data. First problem at:",
+          "limit": "Importing would leave the list with more than {max} items."
+        }
+      }
+    },
+    "backup": {
+      "message": "Your data lives only in this browser. Export a backup so nothing is lost if the browser data is cleared.",
+      "export": "Export now",
+      "later": "Later"
+    },
+    "corrupt": {
+      "title": "We could not read your saved data",
+      "description": "The app opened with an empty list, but a copy of what was saved has been kept. Download it to try to recover what you can.",
+      "download": "Download the copy"
+    },
+    "offline": {
+      "label": "Offline"
+    },
+    "schedule": {
+      "label": "When and repeat",
+      "title": "When and repeat",
+      "description": "Choose when the task shows up, its due date and whether it repeats.",
+      "apply": "Apply",
+      "clear": "Clear all",
+      "recurringHint": "For a repeating task each occurrence is due on its own day — so there is no due date.",
+      "summary": {
+        "daily": "{count, plural, one {Every day} other {Every # days}}",
+        "weekly": "{count, plural, one {Every week} other {Every # weeks}}",
+        "monthly": "{count, plural, one {Every month} other {Every # months}}",
+        "yearly": "{count, plural, one {Every year} other {Every # years}}",
+        "day": "day {day}",
+        "lastDay": "last day",
+        "due": "Due {date}",
+        "starts": "Starts {date}"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "collapse-filter": false,
+  "search": "path:docs/ OR path:CLAUDE.md",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:docs/modules/ file:rules",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:docs/modules/ file:context",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:docs/decisions/",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:docs/operations/",
+      "color": {
+        "a": 1,
+        "rgb": 5049101
+      }
+    },
+    {
+      "query": "path:docs/recipes/",
+      "color": {
+        "a": 1,
+        "rgb": 15105570
+      }
+    },
+    {
+      "query": "file:CLAUDE",
+      "color": {
+        "a": 1,
+        "rgb": 9146926
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1.2,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.4,
+  "repelStrength": 11,
+  "linkStrength": 1,
+  "linkDistance": 180,
+  "close": false
+}

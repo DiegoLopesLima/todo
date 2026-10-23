@@ -1,0 +1,23 @@
+# Normaliza as quebras de linha no repositório.
+#
+# Por quê: em projetos editados num bind mount Windows/WSL2, sem este arquivo o Git grava CRLF
+# na árvore de trabalho enquanto o índice guarda LF — centenas de arquivos aparecem como
+# "modificados" sem mudança de conteúdo, e `git diff` perde a utilidade. `.editorconfig` e
+# `biome.json` já exigem LF; aqui o Git passa a exigir também.
+* text=auto eol=lf
+
+# Binários: nunca sofrer conversão de quebra de linha.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.webp  binary
+*.avif  binary
+*.pdf   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.otf   binary
+*.mp4   binary
+*.webm  binary

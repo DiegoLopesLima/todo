@@ -1,0 +1,9 @@
+{
+  // Impede o VS Code de "sequestrar" a porta do dev server. O auto port-forwarding
+  // faz o VS Code criar um listener em 127.0.0.1:3000 que, por ser um endereço mais
+  // específico que o 0.0.0.0 do `next dev`, VENCE todo tráfego de localhost e engole
+  // as requisições — a página fica em loading infinito e nada aparece no terminal do
+  // Next. Desligado, `localhost:3000` cai direto no Next.
+  "remote.autoForwardPorts": false,
+  "remote.autoForwardPortsFallback": 0
+}
